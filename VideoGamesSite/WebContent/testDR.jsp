@@ -4,7 +4,12 @@
 <%@page import="java.util.*"%>
 <%@page import="jvs.Game"%>    
     <%
-ArrayList<Game> listeGame = new ArrayList<Game>();
+
+    String nameVo="";
+    String editeur="";
+    int date=0;
+    String genre = "";
+    
 try{
 	Class.forName("com.mysql.jdbc.Driver");
 		
@@ -24,11 +29,12 @@ try{
 			
 			Game instanceGame = new Game();
 				
-			instanceGame.setTitre(result.getString("titre"));
-			instanceGame.setEditeur(result.getString("editeur"));
-			instanceGame.setDate(result.getInt("date"));
+			nameVo = result.getString("titre_vo");
+			editeur = result.getString("editeur");
+			genre = result.getString("genre");
+			date = result.getInt("date");
 			
-			listeGame.add(instanceGame);
+			
 		}
 }
 catch (SQLException e) {
@@ -73,23 +79,25 @@ catch (ClassNotFoundException e) {
 			<li><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></li>
 			<li>
 			<% 
-	for (int i=0; i<listeGame.size(); i++)
-          {
+	
 		
 			  out.print("Titre VO: ");
 		 	  out.println("<strong>");
-              out.print(listeGame.get(i).getTitre());
+              out.print(nameVo);
               out.println("</strong>");
               out.println("<br />");
               out.print("Editeur: ");
               out.println("<em>");
-              out.print(listeGame.get(i).getEditeur());
+              out.print(editeur);
               out.println("</em>");
               out.println("<br />");
+              out.print("Genre: ");
+              out.println(genre);
+              out.println("<br />");
               out.print("Date de sortie: ");
-              out.println(listeGame.get(i).getDate());
+              out.println(date);
 
-          } %>			
+           %>			
 			</li>
 		</ul>	
 	</div>
