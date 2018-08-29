@@ -42,5 +42,7 @@
  catch(Exception e){e.printStackTrace();
  out.print("Pseudo déja pris!" );
  }
+ 
+ Thread.sleep(2000);
 
  %>

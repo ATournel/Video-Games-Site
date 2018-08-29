@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style/homeStyle.css">
 <title>Page d'Accueil</title>
 </head>
 <body>
@@ -33,9 +33,9 @@
 	
 	<div id="tests">
 	    <ul>
-	      <li><a href=testDR.jsp><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></a>
+	      <li id="test1"><a href=testDR.jsp><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></a>
 	      <br /><h3>Dragon quest XI</h3></li>
-	      <li><a href=testCP.jsp><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=30% height=30%></a>
+	      <li id="test2"><a href=testCP.jsp><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=30% height=30%></a>
 	      <br /><h3>CyberPunk 2077</h3></li>	      
 	    </ul>
 	    <div class="clear"> </div>
