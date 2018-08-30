@@ -85,9 +85,9 @@ catch (ClassNotFoundException e) {
 	
 	
 	
-	<div id="tete">
+	<div id="tests">
 		<ul>
-			<li><img src="images/f1 2018.jpg" width=30% height=30%></li>
+			<li><img src="images/f1 2018.jpg" width=600px height=auto></li>
 			<li>
 			<% 
 	

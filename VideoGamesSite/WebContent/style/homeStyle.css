@@ -1,6 +1,14 @@
 @charset "ISO-8859-1";
 
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+}
 
+h2 {
+	text-align: center;
+	font-size: 2.5rem;
+}
 
 li {
 	list-style: none;
@@ -12,7 +20,23 @@ li {
 	justify-content: space-around;
 }
 
+a { 
+	text-decoration:none; 
+	color: black;
+	font-size: 1.5rem;
+} 
+
+footer a {
+	font-size: 1rem;
+}
+
 #tests ul {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#tests ul li {
+	padding: 6vw;
 }

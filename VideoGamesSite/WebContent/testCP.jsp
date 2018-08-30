@@ -83,9 +83,9 @@ catch (ClassNotFoundException e) {
 	
 	<center><h1>CyberPunk 2077</h1></center>
 	
-	<div id="tete">
+	<div id="tests">
 		<ul>
-			<li><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=30% height=30%></li>
+			<li><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=600px height=auto></li>
 			<li>
 			<% 
 	

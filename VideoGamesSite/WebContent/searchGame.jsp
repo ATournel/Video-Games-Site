@@ -90,11 +90,11 @@ catch (ClassNotFoundException e) {
               out.print(listeGame.get(i).getTitre());
               out.println("</strong>");
               out.print(", ");
-              out.println("<em>");
               out.print(listeGame.get(i).getGenre());
-              out.println("</em>");
               out.print(" - ");
+              out.println("<em>");
               out.println(listeGame.get(i).getEditeur());
+              out.println("</em>");
               out.print(".");
               out.print("</li>");
               out.println("<br />");

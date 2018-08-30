@@ -83,9 +83,9 @@ catch (ClassNotFoundException e) {
 	
 	<center><h1>Dragon Quest XI</h1></center>
 	
-	<div id="tete">
+	<div id="tests">
 		<ul>
-			<li><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></li>
+			<li><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=600px height=auto></li>
 			<li>
 			<% 
 	

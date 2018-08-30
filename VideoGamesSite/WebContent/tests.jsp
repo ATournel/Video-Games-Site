@@ -41,13 +41,13 @@
 	
 	<div id="tests">
 	    <ul>
-	      <li><a href=testDR.jsp><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></a>
+	      <li><a href=testDR.jsp><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=450px height=auto></a>
 	      <br /><h3>Dragon quest XI</h3></li>
-	      <li><a href=testCP.jsp><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=30% height=30%></a>
+	      <li><a href=testCP.jsp><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=450px height=auto></a>
 	      <br /><h3>CyberPunk 2077</h3></li>
-	      <li><a href=testGM.jsp><img src="images/Guacamelee2.jpg" width=30% height=30%></a>
+	      <li><a href=testGM.jsp><img src="images/Guacamelee2.jpg" width=450px height=auto></a>
 	      <br /><h3>Guacamelee! 2</h3></li>
-	      <li><a href=testF1.jsp><img src="images/f1 2018.jpg" width=30% height=30%></a>
+	      <li><a href=testF1.jsp><img src="images/f1 2018.jpg" width=450px height=auto></a>
 	      <br /><h3>F1 2018</h3></li>	      
 	    </ul>
 	    <div class="clear"> </div>
