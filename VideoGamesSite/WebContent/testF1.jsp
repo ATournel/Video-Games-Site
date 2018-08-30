@@ -64,6 +64,15 @@ catch (ClassNotFoundException e) {
 	      <li><a href=Home.jsp>Home</a></li>
 	      <li><a href=news.jsp>News</a></li>
 	      <li><a href=tests.jsp>Tests</a></li>
+	      <li>
+	      <form action="searchGame.jsp">
+	      <input type="text" name="research">
+	      	<select name="type">
+		      	<option>titre</option>
+	            <option>genre</option>
+	            <option>editeur</option>
+        	</select>
+        	<input type="submit" value="Search"></form></li>
 	      <li><a href=contact.jsp>Contactez-nous</a></li>
 	      <li><a href=inscription.jsp>Connexion</a></li>
 	    </ul>

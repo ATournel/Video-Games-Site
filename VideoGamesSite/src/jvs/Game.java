@@ -4,6 +4,7 @@ public class Game {
 
 	String titre;
 	String editeur;
+	String genre;
 	int date;
 		
 	public String getTitre() {
@@ -17,6 +18,12 @@ public class Game {
 	}
 	public void setEditeur(String editeur) {
 		this.editeur = editeur;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 	public int getDate() {
 		return date;

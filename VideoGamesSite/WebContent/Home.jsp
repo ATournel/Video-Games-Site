@@ -21,6 +21,15 @@
 	      <li><a href=Home.jsp>Home</a></li>
 	      <li><a href=news.jsp>News</a></li>
 	      <li><a href=tests.jsp>Tests</a></li>
+	      <li>
+	      <form action="searchGame.jsp">
+	      <input type="text" name="research">
+	      	<select name="type">
+		      	<option>titre</option>
+	            <option>genre</option>
+	            <option>editeur</option>
+        	</select>
+        	<input type="submit" value="Search"></form></li>
 	      <li><a href=contact.jsp>Contactez-nous</a></li>
 	      <li><a href=inscription.jsp>Connexion</a></li>
 	    </ul>
@@ -33,9 +42,9 @@
 	
 	<div id="tests">
 	    <ul>
-	      <li id="test1"><a href=testDR.jsp><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></a>
+	      <li><a href=testDR.jsp><img src="images/dragon-quest-xi-image_0190000000904635.jpg" width=30% height=30%></a>
 	      <br /><h3>Dragon quest XI</h3></li>
-	      <li id="test2"><a href=testCP.jsp><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=30% height=30%></a>
+	      <li><a href=testCP.jsp><img src="images/cyberpunk-2077-4-captures-decran-devoilees-86221.jpg" width=30% height=30%></a>
 	      <br /><h3>CyberPunk 2077</h3></li>	      
 	    </ul>
 	    <div class="clear"> </div>

@@ -12,16 +12,7 @@ li {
 	justify-content: space-around;
 }
 
-#tests {
-	display: grid;
-	grid-template-columns: 1fr, 1fr;
-	grid-template-rows: 1fr;
-}
-
-#tests #test1 {
-	grid-area: 1 / 1 / 2 / 2;
-}
-
-#tests #test2 {
-	grid-area: 2 / 1 / 3 / 2;
+#tests ul {
+	display: flex;
+	flex-direction: row;
 }
